@@ -118,6 +118,7 @@ const App: React.FC = () => {
   
   // GLOBAL STUDY TIMER
   const [dailyStudySeconds, setDailyStudySeconds] = useState(0);
+  const [showUserGuide, setShowUserGuide] = useState(false);
 
   // --- ONLINE/OFFLINE DETECTOR ---
   useEffect(() => {
