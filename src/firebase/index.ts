@@ -9,7 +9,7 @@ const firebaseConfig = {
   authDomain: "iic-nst.firebaseapp.com",
   databaseURL: "https://iic-nst-default-rtdb.firebaseio.com",
   projectId: "iic-nst",
-  storageBucket: "iic-nst.firebasestorage.app",
+  storageBucket: "iic-nst.appspot.com", // ✅ Corrected
   messagingSenderId: "984309241322",
   appId: "1:984309241322:web:2687c7b06bd8da3ee64e93",
 };
